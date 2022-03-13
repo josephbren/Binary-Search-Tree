@@ -3,40 +3,10 @@
 
 #include <iostream>
 #include <vector>
+#include "TreeLibrary.cpp"
+
 
 using namespace std;
-
-
-struct Node
-{
-    Node(int data)
-    {
-        _data = data;
-        _left = _right = nullptr;
-    }
-
-    int _data;
-    Node* _left;
-    Node* _right;
-};
-
-
-Node* CreateBalancedTree(int treeValues[], int start, int end)
-{
-    if (start > end)
-    {
-        return nullptr;
-    }
-
-    int mid = (start + end) / 2;
-
-    Node* root = new Node(treeValues[mid]);
-
-    root->_left = CreateBalancedTree(treeValues, start, mid - 1);
-    root->_right = CreateBalancedTree(treeValues, mid + 1, end);
-
-    return root;
-}
 
 
 void GetLCAPath(Node* root, int value1, vector<int>& values1, bool& value1Found, int value2, vector<int>& values2, bool& value2Found)
