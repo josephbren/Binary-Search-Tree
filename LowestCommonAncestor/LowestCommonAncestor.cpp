@@ -41,7 +41,8 @@ Node* CreateBalancedTree(int treeValues[], int start, int end)
 
 void GetLCAPath(Node* root, int value1, vector<int>& values1, bool& value1Found, int value2, vector<int>& values2, bool& value2Found)
 {
-    if (!root)
+    // Handle base case. Return as soon as both are found
+    if (!root || (value1Found && value2Found))
     {
         return;
     }
@@ -72,6 +73,7 @@ void GetLCAPath(Node* root, int value1, vector<int>& values1, bool& value1Found,
         GetLCAPath(root->_right, value1, values1, value1Found, value2, values2, value2Found);
     }
 
+    // Searched both left and right and didn't find value1, value2 or both so pop the last item in vector(s)
     if (!value1Found)
         values1.pop_back();
 
