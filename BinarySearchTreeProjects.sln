@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LowestCommonAncestor", "Low
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeLibrary", "TreeLibrary\TreeLibrary.vcxproj", "{44E610A6-CA72-47F2-9C77-AA2B8CF50A8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BSTHeight", "BSTHeight\BSTHeight.vcxproj", "{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -47,6 +49,14 @@ Global
 		{44E610A6-CA72-47F2-9C77-AA2B8CF50A8A}.Release|x64.Build.0 = Release|x64
 		{44E610A6-CA72-47F2-9C77-AA2B8CF50A8A}.Release|x86.ActiveCfg = Release|Win32
 		{44E610A6-CA72-47F2-9C77-AA2B8CF50A8A}.Release|x86.Build.0 = Release|Win32
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Debug|x64.ActiveCfg = Debug|x64
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Debug|x64.Build.0 = Debug|x64
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Debug|x86.ActiveCfg = Debug|Win32
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Debug|x86.Build.0 = Debug|Win32
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Release|x64.ActiveCfg = Release|x64
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Release|x64.Build.0 = Release|x64
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Release|x86.ActiveCfg = Release|Win32
+		{E06747C5-72B5-4EB7-8ED4-6F7A739C2336}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
