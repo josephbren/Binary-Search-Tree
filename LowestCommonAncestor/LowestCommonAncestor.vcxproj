@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d640d9ea-2ffb-419c-b4ca-63eda958fabe}</ProjectGuid>
-    <RootNamespace>InOrderTraversal</RootNamespace>
+    <ProjectGuid>{b0662449-a999-4b84-a257-c1aa46cda331}</ProjectGuid>
+    <RootNamespace>LowestCommonAncestor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,7 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="InOrderTraversal.cpp" />
+    <ClCompile Include="LowestCommonAncestor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
