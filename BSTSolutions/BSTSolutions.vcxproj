@@ -89,12 +89,14 @@
     <ClInclude Include="BSTHeight.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="InOrderTraversal.h" />
+    <ClInclude Include="LevelOrderTraversal.h" />
     <ClInclude Include="LowestCommonAncestor.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BSTHeight.cpp" />
     <ClCompile Include="InOrderTraversal.cpp" />
+    <ClCompile Include="LevelOrderTraversal.cpp" />
     <ClCompile Include="LowestCommonAncestor.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

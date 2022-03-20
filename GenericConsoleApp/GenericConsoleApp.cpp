@@ -5,6 +5,7 @@
 #include "InOrderTraversal.h"
 #include "BSTHeight.h"
 #include "LowestCommonAncestor.h"
+#include "LevelOrderTraversal.h"
 
 
 int main()
@@ -25,5 +26,10 @@ int main()
 
     // Get the Binary Search Tree Height
     cout << "The maximum height of the tree is: " << GetHeight(root) << endl;
+
+    // Level order traversal
+    string levelOrder;
+    LevelOrderTraversal(root, levelOrder);
+    cout << "The level order traversal of the tree is: " << levelOrder << endl;
 }
 
