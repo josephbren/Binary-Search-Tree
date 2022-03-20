@@ -9,6 +9,8 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
-#include "TreeLibrary.h"
+#include "LowestCommonAncestor.h"
+#include "InOrderTraversal.h"
+#include "BSTHeight.h"
 
 #endif //PCH_H

@@ -1,9 +1,6 @@
-// LowestCommonAncestor.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
-#include <iostream>
-#include <vector>
-#include "TreeLibrary.cpp"
+#include "pch.h"
+#include "LowestCommonAncestor.h"
 
 
 using namespace std;
@@ -82,16 +79,3 @@ int GetLowestCommonAncestor(Node* root, int value1, int value2)
 
     return -1;
 }
-
-
-int main()
-{
-    int treeValues[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-    int n = sizeof(treeValues) / sizeof(treeValues[0]);
-
-    Node* root = CreateBalancedTree(treeValues, 0, n - 1);
-
-    cout << "The lowest common ancestor of (1,3) is: " << GetLowestCommonAncestor(root, 1, 3) << endl;
-    cout << "The lowest common ancestor of (6,8) is: " << GetLowestCommonAncestor(root, 6, 8) << endl;
-}
-

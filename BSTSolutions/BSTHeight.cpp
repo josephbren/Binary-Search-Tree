@@ -1,11 +1,6 @@
-// BSTHeight.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
-#include <iostream>
-#include "TreeLibrary.cpp"
-
-
-using namespace std;
+#include "pch.h"
+#include "BSTHeight.h"
 
 
 /*
@@ -23,15 +18,4 @@ int GetHeight(Node* root)
     int rightHeight = GetHeight(root->_right);
 
     return (leftHeight > rightHeight ? leftHeight + 1 : rightHeight + 1); // +1 to handle base case (-1)
-}
-
-
-int main()
-{
-    int treeValues[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-    int n = sizeof(treeValues) / sizeof(treeValues[0]);
-
-    Node* root = CreateBalancedTree(treeValues, 0, n - 1);
-
-    cout << "The maximum height of the tree is: " << GetHeight(root) << endl;
 }

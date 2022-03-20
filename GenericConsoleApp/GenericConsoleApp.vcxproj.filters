@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InOrderTraversal.cpp">
+    <ClCompile Include="GenericConsoleApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
