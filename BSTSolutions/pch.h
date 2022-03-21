@@ -12,5 +12,9 @@
 #include "LowestCommonAncestor.h"
 #include "InOrderTraversal.h"
 #include "BSTHeight.h"
+#include "PathsWithSpecifiedSum.h"
+#include "LevelOrderTraversal.h"
+#include "SwapNodes.h"
+#include "VerifyBST.h"
 
 #endif //PCH_H
