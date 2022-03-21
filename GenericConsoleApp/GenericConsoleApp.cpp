@@ -7,6 +7,7 @@
 #include "LowestCommonAncestor.h"
 #include "LevelOrderTraversal.h"
 #include "SwapNodes.h"
+#include "PathsWithSpecifiedSum.h"
 
 
 int main()
@@ -37,5 +38,24 @@ int main()
     string nodesAfterSwap;
     SwapNodes(root, 1, nodesAfterSwap);
     cout << "The level order traversal of swapped tree is: " << nodesAfterSwap << endl;
+
+    vector<vector<int>> paths;
+    vector<int> currentPath;
+
+    PathsWithSpecifiedSum(root, paths, currentPath, 0, 29);
+    if (paths.size() == 0)
+        cout << "There are no paths with the specified sum" << endl;
+    else
+    {
+        cout << "The paths with the specified sum are:" << endl;
+        for (auto path : paths)
+        {
+            for (auto value : path)
+            {
+                cout << value << " ";
+            }
+            cout << endl;
+        }
+    }
 }
 
