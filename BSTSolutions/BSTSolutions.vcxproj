@@ -94,6 +94,7 @@
     <ClInclude Include="PathsWithSpecifiedSum.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SwapNodes.h" />
+    <ClInclude Include="VerifyBST.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BSTHeight.cpp" />
@@ -106,6 +107,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="SwapNodes.cpp" />
+    <ClCompile Include="VerifyBST.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

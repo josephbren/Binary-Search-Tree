@@ -8,6 +8,7 @@
 #include "LevelOrderTraversal.h"
 #include "SwapNodes.h"
 #include "PathsWithSpecifiedSum.h"
+#include "VerifyBST.h"
 
 
 int main()
@@ -57,5 +58,11 @@ int main()
             cout << endl;
         }
     }
+
+    bool isValidBST = true;
+    int value = INT_MIN;
+    IsValidBST(root, value, isValidBST);
+
+    cout << "The given tree is a valid BST: " << isValidBST << endl;
 }
 
