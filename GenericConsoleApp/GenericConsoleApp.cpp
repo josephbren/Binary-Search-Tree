@@ -6,6 +6,7 @@
 #include "BSTHeight.h"
 #include "LowestCommonAncestor.h"
 #include "LevelOrderTraversal.h"
+#include "SwapNodes.h"
 
 
 int main()
@@ -31,5 +32,10 @@ int main()
     string levelOrder;
     LevelOrderTraversal(root, levelOrder);
     cout << "The level order traversal of the tree is: " << levelOrder << endl;
+
+    // Swap nodes
+    string nodesAfterSwap;
+    SwapNodes(root, 1, nodesAfterSwap);
+    cout << "The level order traversal of swapped tree is: " << nodesAfterSwap << endl;
 }
 

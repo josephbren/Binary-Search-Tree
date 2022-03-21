@@ -92,6 +92,7 @@
     <ClInclude Include="LevelOrderTraversal.h" />
     <ClInclude Include="LowestCommonAncestor.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="SwapNodes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BSTHeight.cpp" />
@@ -102,6 +103,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SwapNodes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
